@@ -1,1 +1,1 @@
-cscript /nologo /OUT_DIR:macro scripts/Export.vbs
+cscript /nologo scripts/Export.vbs /OUT_DIR:macro %*

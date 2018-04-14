@@ -101,7 +101,7 @@ Function main()
 
     Set objArgs = WScript.Arguments.Unnamed
     For Each arg In objArgs
-        WScript.Echo "processing " & objArgs(i) & ".."
+        WScript.Echo "processing " & arg & ".."
         macroDirectory = macroOutputDirectory(arg)
         set workBooks = openWorkBooks(arg)
 
