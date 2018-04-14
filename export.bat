@@ -1,0 +1,1 @@
+cscript /nologo /OUT_DIR:macro scripts/Export.vbs
