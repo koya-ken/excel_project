@@ -1,2 +1,2 @@
 @echo off
-cscript /nologo scripts/Import.vbs /MACRO_DIR:macro %*
+cscript /nologo %~dp0/scripts/Import.vbs /MACRO_DIR:macro %*
